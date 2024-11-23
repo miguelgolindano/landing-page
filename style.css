@@ -47,7 +47,35 @@ body {
   gap: 15px;
  }
 
- button {
+ .second-container h3 {
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  font-weight: 900;
+ }
+
+ .second-container h3, .second-container div {
+  color: #1F2937;
+ }
+
+ .cards {
+  padding: 48px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 30px;
+ }
+
+ .cards div {
+  width: 200px;
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+ }
+
+.hero-text button {
   background-color: #3882f6;
   border: none;
   text-align: center;
@@ -55,6 +83,66 @@ body {
   border-radius: 12px;
   width: 150px;
   flex: 0 0 auto;
+ }
+
+ .third-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .quote {
+  width: 500px;
+  height: 300px;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: normal;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .quote .author {
+  font-weight: bold;
+  align-self: flex-end;
+ }
+
+ .fourth-container {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .call-to-action {
+  width: 700px;
+  padding: 50px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .call-to-action button {
+    background-color: #3882f6;
+    border: 3px solid white;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 12px;
+    width: 130px;
+    flex: 0 0 auto;
+ }
+
+ .footer {
+  background-color: #1F2937;
+  color: white;
+  padding: 30px;
+  text-align: center;
  }
 
  a {
@@ -73,6 +161,11 @@ li a {
 }
 
 p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
   margin: 0;
   padding: 0;
 }
